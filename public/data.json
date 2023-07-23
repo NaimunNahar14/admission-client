@@ -1,0 +1,227 @@
+ [
+      {
+        "college_image": "https://i.ibb.co/hMP9R7X/memorial-university-campus.jpg",
+        "college_name": "Memorial University of Newfoundland",
+        "admission_dates": {
+          "fall": "September 1 - November 30",
+          "spring": "January 15 - March 31",
+          "summer": "May 1 - June 30"
+        },
+        "events": [
+          {
+            "event_name": "Orientation Day",
+            "date": "August 25",
+            "description": "Get to know the campus and meet your fellow students!"
+          },
+          {
+            "event_name": "Science Fair",
+            "date": "October 12",
+            "description": "Showcase your research projects and win exciting prizes!"
+          },
+          {
+            "event_name": "Sports Fest",
+            "date": "March 5-7",
+            "description": "Compete in various sports and celebrate the spirit of athleticism."
+          }
+        ],
+        "research_history": [
+          {
+            "year": "2010",
+            "event_name": "Nobel Laureate Lecture",
+            "description": "Hosted a lecture by a Nobel Prize-winning scientist, inspiring the pursuit of knowledge."
+          },
+          {
+            "year": "2015",
+            "event_name": "Breakthrough Research",
+            "description": "Conducted groundbreaking research in renewable energy, contributing to sustainable practices."
+          },
+          {
+            "year": "2022",
+            "event_name": "Medical Advancements",
+            "description": "Published a landmark study in healthcare, revolutionizing patient treatment."
+          }
+        ],
+        "sports": [
+          {
+            "category": "Basketball",
+            "description": "Compete in our college basketball league and represent the Evergreen Eagles!"
+          },
+          {
+            "category": "Swimming",
+            "description": "Dive into our state-of-the-art swimming pool and join our swimming team."
+          },
+          {
+            "category": "Soccer",
+            "description": "Kick off your soccer journey with expert coaching and thrilling matches."
+          }
+        ],
+        "admission_process": {
+          "requirements": [
+            "High school diploma or equivalent",
+            "Transcripts from previous education",
+            "Letters of recommendation",
+            "Personal statement",
+            "Standardized test scores (SAT/ACT)"
+          ],
+          "steps": [
+            "Complete the online application form",
+            "Submit the required documents",
+            "Attend an admission interview, if necessary",
+            "Receive your acceptance letter",
+            "Confirm your enrollment by the given deadline"
+          ]
+        }
+      },
+      {
+        "college_image": "https://i.ibb.co/XZDQ0Yn/photo-1618255630366-f402c45736f6.jpg",
+        "college_name": "university of Toronto",
+        "admission_dates": {
+          "fall": "August 15 - November 15",
+          "spring": "December 1 - March 1",
+          "summer": "April 1 - June 1"
+        },
+        "events": [
+          {
+            "event_name": "Freshers' Night",
+            "date": "September 5",
+            "description": "A night of celebration and bonding for the new students."
+          },
+          {
+            "event_name": "Cultural Fest",
+            "date": "November 20-22",
+            "description": "Experience the rich cultural diversity of our college through performances and exhibitions."
+          },
+          {
+            "event_name": "Tech Expo",
+            "date": "March 15",
+            "description": "Showcase innovative technological projects and inventions."
+          }
+        ],
+        "research_history": [
+          {
+            "year": "2012",
+            "event_name": "Social Sciences Symposium",
+            "description": "Organized a symposium on social issues, fostering awareness and change."
+          },
+          {
+            "year": "2017",
+            "event_name": "Environmental Summit",
+            "description": "Addressed pressing environmental challenges through workshops and discussions."
+          },
+          {
+            "year": "2021",
+            "event_name": "Literary Journal Publication",
+            "description": "Launched a prominent literary journal, providing a platform for aspiring writers."
+          }
+        ],
+        "sports": [
+          {
+            "category": "Volleyball",
+            "description": "Join our volleyball team and spike your way to victory."
+          },
+          {
+            "category": "Tennis",
+            "description": "Ace your game with expert coaching and top-notch facilities."
+          },
+          {
+            "category": "Athletics",
+            "description": "Run, jump, and throw your way to glory in various athletic events."
+          }
+        ],
+        "admission_process": {
+          "requirements": [
+            "High school diploma or equivalent",
+            "Transcripts from previous education",
+            "Letters of recommendation",
+            "Personal statement",
+            "Standardized test scores (SAT/ACT/GRE)"
+          ],
+          "steps": [
+            "Submit an online application form",
+            "Pay the application fee",
+            "Provide all necessary documents",
+            "Attend an admission interview, if required",
+            "Receive your acceptance letter and scholarship information",
+            "Confirm your enrollment by the specified deadline"
+          ]
+        }
+      },
+      {
+        "college_image": "https://i.ibb.co/mBPT0D5/2023-05-11.jpg",
+        "college_name": "University of Waterloo",
+        "admission_dates": {
+          "fall": "August 1 - October 31",
+          "spring": "December 1 - February 28",
+          "summer": "April 15 - June 15"
+        },
+        "events": [
+          {
+            "event_name": "Innovation Fair",
+            "date": "September 10-12",
+            "description": "Celebrate creativity and ingenuity through exciting exhibits and workshops."
+          },
+          {
+            "event_name": "Coding Competition",
+            "date": "November 8-10",
+            "description": "Put your coding skills to the test in our annual programming competition."
+          },
+          {
+            "event_name": "Career Expo",
+            "date": "March 25-27",
+            "description": "Connect with top employers and explore job opportunities for your future."
+          }
+        ],
+        "research_history": [
+          {
+            "year": "2013",
+            "event_name": "Tech Symposium",
+            "description": "Showcased the latest technological advancements in various fields."
+          },
+          {
+            "year": "2018",
+            "event_name": "Medical Breakthrough",
+            "description": "Discovered a groundbreaking treatment, revolutionizing healthcare."
+          },
+          {
+            "year": "2020",
+            "event_name": "AI Research",
+            "description": "Made significant contributions to artificial intelligence research."
+          }
+        ],
+        "sports": [
+          {
+            "category": "Esports",
+            "description": "Compete in the virtual arena and represent our college in esports tournaments."
+          },
+          {
+            "category": "Table Tennis",
+            "description": "Sharpen your table tennis skills and serve your way to victory."
+          },
+          {
+            "category": "Badminton",
+            "description": "Join our badminton club and smash your way to success."
+          }
+        ],
+        "admission_process": {
+          "requirements": [
+            "High school diploma or equivalent",
+            "Transcripts from previous education",
+            "Letters of recommendation",
+            "Personal statement or portfolio, depending on the program",
+            "Standardized test scores (SAT/ACT/GRE/GMAT), depending on the program"
+          ],
+          "steps": [
+            "Complete the online application form",
+            "Submit the required documents",
+            "Pass an entrance examination or portfolio review, if applicable",
+            "Participate in a selection interview, if necessary",
+            "Receive your acceptance letter and scholarship details",
+            "Confirm your enrollment and choose your specialization"
+          ]
+        }
+      }
+    ]
+
+  
+  
+  
