@@ -9,12 +9,13 @@ import './Reviews.css';
 
 // import required modules
 import { Navigation } from 'swiper/modules';
+import SectionTitle from '../../Components/SectionTitle';
 
 
 const Reviews = () => {
     const [reviews, setreviews] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/review')
+        fetch('https://admission-server-rouge.vercel.app/review')
             .then(res => res.json())
             .then(data => setreviews(data))
     }, [])
@@ -22,7 +23,8 @@ const Reviews = () => {
     return (
         <div>
             <div className=" mt-10 mb-10 text-center lg:w-2/3 mx-auto">
-                <h3 className="text-3xl font-bold mb-5">Our Students FeedBack</h3>
+            <SectionTitle title={"Our Students FeedBack"}></SectionTitle>
+               
 
             </div>
             <div className="my-container grid md:grid-cols-2 gap-5">

@@ -5,7 +5,7 @@ const College = () => {
     const [colleges, setColleges] = useState([]);
 
   useEffect(() => {
-    fetch('http://localhost:5000/class')
+    fetch('https://admission-server-rouge.vercel.app/class')
       .then((res) => res.json())
       .then((data) => setColleges(data))
       .catch((error) => console.error('Error fetching colleges:', error));

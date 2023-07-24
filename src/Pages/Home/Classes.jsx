@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { Card, CardMedia, CardContent, Typography, List, ListItem, ListItemText } from '@mui/material';
 import { Link } from 'react-router-dom';
+import SectionTitle from '../../Components/SectionTitle';
 
 const Classes = () => {
     const [colleges, setColleges] = useState([]);
 
     
-    const url = 'http://localhost:5000/class';
+    const url = 'https://admission-server-rouge.vercel.app/class';
 
     useEffect(() => {
         fetch(url)
@@ -18,6 +19,7 @@ const Classes = () => {
 
     return (
         <div className="p-4 space-y-4">
+              <SectionTitle title={"Colleges Information"}></SectionTitle>
             <div className="flex flex-wrap -mx-2">
                 {colleges.map((college, index) => (
                     <div key={index} className="px-2 w-full sm:w-1/2 md:w-1/3">

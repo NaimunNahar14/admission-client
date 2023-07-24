@@ -1,3 +1,4 @@
+import SectionTitle from "../Components/SectionTitle";
 
 const researchPapers = [
     {
@@ -16,8 +17,8 @@ const researchPapers = [
 ];
 const Research = () => {
     return (
-        <div className="mt-10">
-            <h4 className="text-2xl font-semibold mb-5">Recommended Research Papers</h4>
+        <div className="mt-10 mb-10">
+            <SectionTitle title={"Recommended Research Papers"}></SectionTitle>
             <ul className="list-disc pl-8">
                 {researchPapers.map((paper, index) => (
                     <li key={index}>

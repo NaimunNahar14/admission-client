@@ -11,11 +11,14 @@ import img3 from '../assets/photo-1523580846011-d3a5bc25702b.avif';
 import img4 from '../assets/photo-1527269534026-c86f4009eace.avif';
 import img5 from '../assets/photo-1623461487986-9400110de28e.avif';
 import img6 from '../assets/photo-1633734973050-d6499a977c17.avif';
+import SectionTitle from '../Components/SectionTitle';
 
 const Gallery = () => {
     return (
-        <div>
+        <div className='mt-10'>
+              <SectionTitle title={"Gallery"}></SectionTitle>
             <div className="mt-10 grid md:grid-cols-3 gap-5">
+          
                 <div className='flex flex-col justify-center '>
                     <ScrollRevealText>
                         <h4 className='text-2xl font-semibold mb-5'> Our latest Collections of

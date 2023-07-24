@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { AuthContext } from '../providers/AuthProvider';
+import SectionTitle from '../Components/SectionTitle';
 
 const Admission = () => {
     const { user } = useContext(AuthContext);
@@ -25,7 +26,7 @@ const Admission = () => {
         }
         console.log(admission);
 
-        fetch('http://localhost:5000/admission', {
+        fetch('https://admission-server-rouge.vercel.app/admission', {
             method: "POST",
             headers: {
                 'content-type': 'application/json'
@@ -45,7 +46,8 @@ const Admission = () => {
 
     }
     return (
-        <div className='mt-10'>
+        <div className='mt-10 mb-10'>
+                  <SectionTitle title={"Admission Form"}></SectionTitle>
             <form onSubmit={handleAddToy}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="form-control">

@@ -4,7 +4,7 @@ import { useParams } from 'react-router-dom';
 const CollegeDetails = () => {
     const { id } = useParams();
     const [college, setCollege] = useState(null);
-    const url = `http://localhost:5000/class/${id}`;
+    const url = `https://admission-server-rouge.vercel.app/class/${id}`;
 
     useEffect(() => {
         fetch(url)
